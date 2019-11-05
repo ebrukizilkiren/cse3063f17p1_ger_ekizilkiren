@@ -1,6 +1,7 @@
 public class Piece {
 	 private Square location;
 	 private String name;
+	 int turnCounter;
 	 
 	 public Piece(String name){
 		 this.setName(name);
